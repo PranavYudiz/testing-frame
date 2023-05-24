@@ -5,13 +5,20 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "testCase": "mocha helper.test.js --timeout 10000 --exit"
+    "testCase": "mocha testcase.js  --exit --file ./.mocharc.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "chai": "^4.3.7",
-    "mocha": "^10.2.0"
+    "chai-mongo-doc": "^0.2.0",
+    "deep-equal-in-any-order": "^2.0.6",
+    "mocha": "^10.2.0",
+    "mongoose": "^7.2.0",
+    "sinon": "^15.1.0"
+  },
+  "devDependencies": {
+    "maybe-chai": "^2.0.0"
   }
 }
