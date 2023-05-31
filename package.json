@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "testCase": "mocha helper.test.js --timeout 10000 --exit"
+    "testcase": "mocha --timeout 10000 ./spy.js --exit "
   },
   "keywords": [],
   "author": "",
